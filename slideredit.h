@@ -15,9 +15,9 @@ private:
     double _moveStep = 1.00;//鼠标长按移动步长
 
 protected:
-    void mousePressEvent(QMouseEvent * eve);
-    void mouseMoveEvent(QMouseEvent * eve);
-    void mouseReleaseEvent(QMouseEvent * eve);
+    virtual void mousePressEvent(QMouseEvent * eve);
+    virtual void mouseMoveEvent(QMouseEvent * eve);
+    virtual void mouseReleaseEvent(QMouseEvent * eve);
 
 public:
      SliderEdit(QWidget *parent = nullptr);

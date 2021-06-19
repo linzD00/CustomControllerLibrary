@@ -8,10 +8,25 @@ class Gatewin:public QWidget
 {
     Q_OBJECT
 private:
-    SliderEdit * mSlidereditor;
+    QTimer * m_pShowTimer;
+    QTimer * m_pStayTimer;
+    QTimer * m_pCloseTimer;
+
+    double m_dTransparent = 1.0;
+    double mDesktopHeight;
+    QPoint mpoint;
+
 public:
     Gatewin();
     ~Gatewin();
+
+    void showMessage();
+
+    void onMove();
+
+    void onStay();
+
+    void onClose();
 
 };
 
