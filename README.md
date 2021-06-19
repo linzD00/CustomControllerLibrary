@@ -15,4 +15,3 @@ effect：https://www.cnblogs.com/linzloadonbook/p/14902043.html
 功能：出现 - 停留 - 消失
 func:appear-stay-disappear
 effect：https://www.cnblogs.com/linzloadonbook/p/14902653.html
-
